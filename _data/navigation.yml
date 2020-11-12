@@ -33,7 +33,8 @@ primary:
   - text: External link
     href: https://18f.gsa.gov
     external: true
-
+  - text: Blog
+    href: /blog/
 secondary:
   - text: Documentation
     href: /docs/

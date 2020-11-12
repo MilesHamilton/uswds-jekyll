@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for elm in site.data.timelines.dates %} {% capture details %}
+<h4>{{elm.length}}</h4>
+<p>{{elm.description}}</p>
+{% endcapture %} {% capture summary %} {{elm.week}} {% endcapture %}{% include
+details.html %} {% endfor %}
