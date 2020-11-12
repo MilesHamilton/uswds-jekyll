@@ -11,8 +11,8 @@ details {
 	padding: 0px 8px;
 	margin-bottom: 15px;
 
-	display: flex;
-	flex-direction: column;
+	// display: flex;
+	// flex-direction: column;
 }
 details[open] {
 	background: $details-background-color;
@@ -24,4 +24,10 @@ summary {
 }
 details summary {
 	color: $brand-color;
+}
+
+.description {
+	display: flex;
+	flex-direction: column;
+	border: red solid 4px;
 }

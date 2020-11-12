@@ -1,6 +1,5 @@
 ---
 # title: blog
-description: This is a blog page.
 graphics:
   - image:
     length: July - Sept 2019
